@@ -29,7 +29,7 @@ def fetch_headlines(query):
     return pd.DataFrame(data)
 
 # Streamlit UI
-st.title("Headline Scraper")
+st.title("Web Scraping")
 
 query = st.text_input("Enter what you want to search:")
 
